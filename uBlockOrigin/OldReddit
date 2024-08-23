@@ -1,0 +1,50 @@
+! Reddit Blocked
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.commentsignupbar__textarea
+old.reddit.com##.commentsignupbar__container
+old.reddit.com##.premium-banner
+old.reddit.com##.fixed.active.read-next
+old.reddit.com##.read-next-header
+old.reddit.com##.active.read-next
+old.reddit.com##.sidecontentbox > .content
+old.reddit.com##.title > h1
+old.reddit.com##.sr-list
+old.reddit.com###sr-more-link
+old.reddit.com##.login-required.add.active.option
+old.reddit.com##.morelink > .access-required.login-required
+! Reddit Style
+old.reddit.com##body:style(background: #252525 !important)
+old.reddit.com##div:style(background: #252525 !important)
+old.reddit.com##tr:style(background: #252525 !important)
+old.reddit.com##td:style(background: #252525 !important)
+old.reddit.com##thead:style(background: #252525 !important)
+old.reddit.com##h1:style(background: #252525 !important)
+old.reddit.com##h2:style(background: #252525 !important)
+old.reddit.com##h3:style(background: #252525 !important)
+old.reddit.com##h4:style(background: #252525 !important)
+old.reddit.com##h5:style(background: #252525 !important)
+old.reddit.com##h6:style(background: #252525 !important)
+old.reddit.com##a:style(background: #252525 !important)
+old.reddit.com##ul:style(background: #252525 !important)
+old.reddit.com##form:style(background: #252525 !important)
+old.reddit.com##table:style(background: #252525 !important)
+old.reddit.com##blockquote:style(background: #252525 !important)
+old.reddit.com##p:style(background: #252525 !important)
+old.reddit.com##input:style(background: #9E9E9E !important)
+old.reddit.com##input:style(border: 0px solid #9E9E9E !important)
+old.reddit.com##a.choice:style(background: #252525 !important)
+old.reddit.com##body:style(color: white !important)
+old.reddit.com##div:style(color: white !important)
+old.reddit.com##blockquote:style(color: #81C784 !important)
+old.reddit.com##blockquote:style(color: #81C784 !important)
+old.reddit.com##.redditname:style(color: blue !important)
+old.reddit.com##div:style(border: 0px solid red !important)
+old.reddit.com##a:style(color: #01579B !important)
+old.reddit.com##a.title:style(color: #81D4FA !important)
+old.reddit.com##a.expand:style(color: #81D4FA !important)
+old.reddit.com##code:style(background-color: #EEEEEE !important)
+old.reddit.com##code:style(color: black)
+old.reddit.com##code::before:style(background-color: #BDBDBD !important)
+old.reddit.com##code::before:style(color: black !important)
+old.reddit.com##.sitetable:style(border-left: 1px solid #BDBDBD !important)
+!old.reddit.com##.sitetable:style(border-top: 1px solid #BDBDBD !important)
