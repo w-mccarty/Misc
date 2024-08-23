@@ -1,0 +1,10 @@
+duckduckgo.com##.related-searches
+duckduckgo.com##section[data-testid="sidebar"]
+duckduckgo.com##div[data-react-module-id="about"]
+duckduckgo.com##li[data-layout="videos"]
+duckduckgo.com##li[data-layout="news"]
+duckduckgo.com##li[data-layout="images"]
+duckduckgo.com##li[id^="sl"]
+
+! block sites from results:
+! duckduckgo.com##li:has([href*="SITENAME.COM"])
