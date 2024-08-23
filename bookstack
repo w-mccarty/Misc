@@ -1,0 +1,15 @@
+<style>
+  .tri-layout-left {width:13vw; border:0px solid red; position: absolute; left:0px;}
+  .tri-layout-right {width:13vw; border:0px solid red; position: absolute; right:0px;}
+  .tri-layout-middle {width:74vw; border:0px solid red;}
+    .tri-layout-middle-contents {width:70vw !important; max-width:6000vw; }
+      #main-content {width:70vw !important; max-width:6000vw; border:0px solid blue;}
+      .page-content {width:64vw !important; max-width:6000vw; border:0px solid pink;}
+  .featured-image-container {min-height:100px !important;}
+  .grid-card-content {padding:12px !important;}
+  .grid-card-footer {padding:12px !important; padding-top:0px !important; display:none !important;}
+  .grid-card {margin-bottom:0px; width:12vw;}
+  .grid.third {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+  h1 {font-size:2rem;}
+  .mb-s {display:block;}
+</style>
