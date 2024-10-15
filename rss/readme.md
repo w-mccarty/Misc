@@ -1,4 +1,4 @@
-Useful RSS links.
+CSV collections of various useful RSS feeds.
 
 
 RSS tools:
