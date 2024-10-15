@@ -10,6 +10,7 @@ x_title = "" #BLOG NAME
 x_title = "" #BLOG URL
 x_description = "" #BLOG DESCRIPTION
 x_script = '<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>' + x_title + '</title><link>' + x_title + '</link><description>' + x_description + '</description>'
+x_fin = 'test.csv'
 x_file = 'feed.xml' #OUTPUT FILE
 
 #CONVERT DATE FROM MM-DD-YY to TO RSS FORMAT.  WARNING: SCRIPT IGNORES POSTING TIME, USES 00:00:00 GMT FOR SIMPLICITY.
@@ -21,16 +22,19 @@ def dateformat(pubDate):
         dtotal = d_wkday + ', ' + d_day + ' ' + d_month + ' ' + d_year + ' 00:00:00 GMT'
         return(dtotal)
 
-with open('test.csv', newline='') as csvfile:
+#OPEN CSV AND APPEND TO ARRAY
+with open(x_fin, newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
                 arr.append(row)
 arrlength = len(arr)
 
-#GENERATE RSS ENTRIES & COMBINE
+#SELECT RANGE OF ARTICLES TO USE (LAST 10 WILL BE INCLUDED FROM THE FOLLOWING CONFIG):
 if arrlength > 10:
         rval0 = arrlength - 10
 xrange = range(rval0, arrlength)
+
+#GENERATE RSS ENTRIES & COMBINE
 for x in xrange:
         j_articlenumber = str(x)
         j_name = arr[x][1].strip()
