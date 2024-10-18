@@ -9,5 +9,8 @@ circuits diy,https://www.circuits-diy.com/feed/
 automation direct,https://library.automationdirect.com/feed/
 siemens,https://press.siemens.com/global/en/rss.xml
 rockwell,https://www.rockwellautomation.com/en-us/company/investor-relations/investor-resources/email-alerts-rss.html
-how stuff works,https://syndication.howstuffworks.com/rss/HSW
+arduino stackexchange, https://arduino.stackexchange.com/feeds
+raspberrypi stackexchange, https://raspberrypi.stackexchange.com/feeds
+adafruit,https://learn.adafruit.com/feed
 tek supply,https://tek-supply.com/blogs/news.atom
+how stuff works,https://syndication.howstuffworks.com/rss/HSW
