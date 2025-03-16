@@ -1,4 +1,6 @@
 <style>
+  html {background-color:#E6E5E5 !important;}
+  #header {background-color:#444444 !important;}
   .tri-layout-left {width:13vw; border:0px solid red; position: absolute; left:0px;}
   .tri-layout-right {width:13vw; border:0px solid red; position: absolute; right:0px;}
   .tri-layout-middle {width:74vw; border:0px solid red;}
@@ -12,4 +14,30 @@
   .grid.third {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
   h1 {font-size:2rem;}
   .mb-s {display:block;}
+  @media only screen and (min-device-width: 300px) and (max-width: 600px){
+    .entity-item-snippet{display:none;}
+    .tri-layout-middle {width:98vw; left:1vw !important; padding-top:1px !important; }
+    .tri-layout-middle-contents {width:95vw !important; max-width:6000vw; }
+    #main-content {width:96vw !important; max-width:6000vw; border:0px solid blue;}
+    .page-content {width:90vw !important; max-width:6000vw; border:0px solid pink;}
+    .grid.third {grid-template-columns: 1fr 1fr 1fr !important;}
+    .tri-layout-container.show-info {width:98vw;}
+    .tri-layout-left.print-hidden {width:48vw !important; left:2vw;}
+    .tri-layout-left-contents {width:48vw !important; left:2vw;}
+    .tri-layout-right.print-hidden {width:48vw !important; left:50vw;}
+    .tri-layout-right-contents {width:48vw !important; left:50vw;}
+    .grid.mx-l {height: 5vh !important;}
+    .logo {height: 4vh !important; padding:0px !important; margin: 0.5vh !important;}
+    .logo-image {height: 3vh !important;}
+    .mobile-menu-toggle {height: 3vh !important; padding:0px !important; margin: 1vh !important; top:0px !important;}
+    .svg-icon {height: 3vh !important; padding:0px !important; margin: 0px !important; top:0px !important; margin-inline-end:0px !important; }
+    .tri-layout-mobile-tab {height:5vh !important; padding:0px !important; margin: 0px !important;}
+    .v-center {grid-template-columns: 1fr 1fr !important; margin-bottom:3vh;}
+    .list-heading {max-width: 45vw !important; margin-top:0vh; margin-bottom:0vh; font-size:1.5em !important; display:flex; }
+    .text-right {max-width: 45vw !important; display:flex;}
+    h1 {font-size:1.5em !important;}
+    h2 {font-size:1em !important;}
+    .flex.fit-content.break-text {margin-top:0px !important; margin-bottom:0px !important;}
+    .flex.fit-content.text-m-right {margin-top:0px !important; margin-bottom:0px !important;}
+  }
 </style>
